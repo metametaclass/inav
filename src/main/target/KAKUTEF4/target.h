@@ -176,3 +176,7 @@
 #else
 #   define MAX_PWM_OUTPUT_PORTS       6
 #endif
+
+#ifdef KAKUTEF4V2
+#   define USE_DSHOT
+#endif
